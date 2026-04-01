@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
+h1 {
+    font-family: "Geist", system-ui ; 
+    font-size: 50px;
+    font-weight: 400;
+    color: #FFFFFF ;
+}
+h2 {
+    font-family: "Geist", system-ui;
+    font-size: 40px;
+    font-weight: 400;
+    color: #4ADE80 ;
+}
+h3 {
+    font-family: "Geist", system-ui;
+    font-size: 30px;
+    font-weight: 400;
+    color: #a1a1aa ;
+}
+p {
+    font-family: "Geist", system-ui;
+    font-size: 25px;
+    font-weight: 400;
+    color: #a1a1aa ;
+}
+
+
+.background {
+    background-color: #1F1F1D;
+}
+.txt-center{
+    text-align: center;
+}
+
+.geist {
+    font-family: "Geist", system-ui, 
+}
+.white {
+    color: #FFFFFF ;
+}
+.green {
+    color: #4ADE80 ;
+}
+.gray {
+    color: #a1a1aa ;
+}
+.black {
+    color: #1F1F1D ;
+}
+.btn1 {
+    text-decoration: none;
+    background-color: #1F1F1D ;
+    border-radius : 15px;
+    color: #a1a1aa ;
+    border: solid 2px #a1a1aa ;
+    padding: 10px 30px;
+    display: inline-block;
+}
+.btn2{
+    text-decoration: none;
+    background-color: #4ADE80 ;
+    border-radius : 15px;
+    color:#1F1F1D ;
+    padding: 10px 30px;
+    display: inline-block;
+}
