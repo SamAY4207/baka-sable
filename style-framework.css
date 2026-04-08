@@ -1,0 +1,157 @@
+/* import de la typo */
+
+/* RESET */
+*{
+    margin: 0; /* pas de marges par défaut */
+    padding: 0; /*pas de madding par défaut */
+    box-sizzing: border-box; /* Ne change pas la taille de la boite si j'ajoute des padding ou des border, je garde le controle de ma boite */
+}
+
+/* TEXTE */
+
+.decoration-none{
+    text-decoration:none; /*retirer la ligne sous les textes */
+    }
+
+.list-style-none{
+    list-style-type: none; /* retirer la puces des listes */
+}
+
+.bold{
+    font-weight: 800; /*mettre en gras */
+}
+
+.text-center{
+    text-align: center; /* alligne le texte au centre */
+}
+
+.uppercase{
+    text-transform: uppercase;  /* mettre en en majuscule */
+}
+
+/* DIMMENSIONS */
+
+.w100{
+    width: 100%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.w48{
+    width: 48%;
+}
+
+.w30{
+    width: 30%;
+}
+
+.w25{
+    width: 25%;
+}
+
+.w20{
+    width: 20%;
+}
+
+
+/* FLEX BOX */
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.gap-32 {
+    gap: 32px;
+}
+
+/* ----------------------
+    MARGIN & PADDING
+---------------------- */
+
+.mt-16{
+    margin-top: 16px;
+}
+
+.mb-16{
+    margin-bottom: 16px;
+}
+
+.mt-32{
+    margin-top: 16px;
+}
+
+.mb-32{
+    margin-bottom: 16px;
+}
+
+.mt-128{
+    margin-top: 128px;
+}
+
+.pb-16{
+    padding-top: 16px;
+}
+
+.pb-16{
+    padding-bottom: 16px;
+}
+
+.pt-32{
+    padding-top: 16px;
+}
+
+.pb-32{
+    padding-bottom: 16px;
+}
+
+
+
+/*CONTAINER */
+
+.container-1200{
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-1000{
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-1480{
+    max-width: 1480px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg-green{
+    background-color: greenyellow;
+}
