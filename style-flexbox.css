@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.rouge{
+    background-color: red;
+}
+
+.verte{
+    background-color: greenyellow;
+}
+
+.bleu{
+    background-color: aqua;
+}
+/*
+div{
+    width: 200px;
+    height: 200px;
+}
+*/
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.gap-16{
+    gap: 16px;
+}
+
+
+
+.w15{
+    width: 15% ;
+}
+
+.w100{
+    width: 100%;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.container-1600{
+    max-width: 1600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
